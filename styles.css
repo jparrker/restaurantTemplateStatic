@@ -1,0 +1,107 @@
+body,
+html {
+  height: 100%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.opacity-hover-off {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opacity-hover-off:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #373b3e;
+  color: white;
+}
+
+/* Hide on small screens */
+@media (max-width: 992px) {
+  #top_nav {
+    display: none;
+  }
+}
+
+.bg-img {
+  background-image: url("./assets/pizza_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.btn {
+  min-width: 250px;
+}
+
+.btn.hover-btn:hover {
+  border: none;
+  outline: none;
+}
+
+/* menu */
+
+.bg-black {
+  background-color: #000;
+}
+
+.hover-red:hover {
+  background-color: rgba(100, 0, 0, 0.5);
+  color: #fff;
+  text-decoration: none;
+}
+
+.active-tab {
+  background-color: red;
+  color: #fff;
+}
+
+.border-dark {
+  border-color: dark-grey;
+}
+
+.badge {
+  padding: 0.6em, 0.8em.;
+}
+
+.small-tag {
+  padding: 0.3em;
+}
+
+.bg-red {
+  background-color: red;
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.menu h1 {
+  color: #000;
+}
+
+.img-greyscale {
+  filter: greyscale(100%);
+}
+
+.extra-large {
+  height: 60px;
+  font-size: 1.8rem;
+}
